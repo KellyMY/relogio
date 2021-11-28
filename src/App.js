@@ -1,7 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
+import Relogio from './Relogio';
 
 function App() {
+  function Relogio(){
+    const text = "Hello";
+    alert('teste');
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +23,8 @@ function App() {
         >
           Learn React
         </a>
+
+        <input type="button" value="click me" onClick={Relogio}/>
       </header>
     </div>
   );

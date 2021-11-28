@@ -1,0 +1,172 @@
+/* Basic */
+.hour{
+    font-size: 800%;
+    font-weight: bold;
+}
+
+.letter{
+    font-size:350%;
+    font-weight: bold;
+}
+  
+  /* Light */
+
+.light{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+  
+    
+}
+.body-light{
+    background: #FFCBA4;
+    color:#000;
+}
+
+
+
+/* Dark Medium */
+
+.dark-medium{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+    transition: 2s; /* Class transition */
+    -moz-transition: 2s; /* Firefox 4 */
+    -webkit-transition: 2s; /* Safari and Chrome */
+    -o-transition: 2s; /* Opera */
+}
+.body-dark-medium{
+    background: #48494D;
+    color: white;
+    transition: 2s; /* Class transition */
+    -moz-transition: 2s; /* Firefox 4 */
+    -webkit-transition: 2s; /* Safari and Chrome */
+    -o-transition: 2s; /* Opera */
+}
+
+
+
+/* Dark */
+
+.dark{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+.body-dark{
+    background: #000;
+    color: #fff;
+}
+
+
+/* Moday -> Red */
+.week-light-monday{
+    background: #FF6347;
+    padding: 5px;
+}
+.week-dark-medium-monday{
+    background: #DC143C;
+    padding: 5px;
+} 
+.week-dark-monday{
+    background: red;
+    padding: 5px;
+}
+
+/* Tuesday -> Pink */
+.week-light-tuesday{
+    background: #DB7093;
+    padding: 5px;
+}
+.week-dark-medium-tuesday{
+    background: #FF69B4;
+    padding: 5px;
+} 
+.week-dark-tuesday{
+    background: #FF1493;
+    padding: 5px;
+}
+
+/* Wednesday -> Yellow */
+.week-light-wednesday{
+    background: #FFFF99;
+    padding: 5px;
+}
+.week-dark-medium-wednesday{
+    background: #FFFF66;
+    color: black;
+    padding: 5px;
+} 
+.week-dark-wednesday{
+    background: #FFFF00;
+    color: black;
+    padding: 5px;
+}
+
+/* Thursday -> Green */
+.week-light-thursday{
+    background: #7FFF00;
+    padding: 5px;
+}
+.week-dark-medium-thursday{
+    background: #32CD32;
+    padding: 5px;
+} 
+.week-dark-thursday{
+    background: #00FF00;
+    padding: 5px;
+}
+
+/* Friday -> Purpple */
+.week-light-friday{
+    background: #EE82EE;
+    padding: 5px;
+}
+.week-dark-medium-friday{
+    background: #DA70D6;
+    padding: 5px;
+} 
+.weekdark-friday{
+    background: #FF00FF	;
+    color: black;
+    padding: 5px;
+}
+
+/* Saturday -> Blue*/
+.week-light-saturday{
+    background: #7fcdff;
+    padding: 5px;
+}
+.week-dark-medium-saturday{
+    background: #2baeb9;
+    padding: 5px;
+} 
+.week-dark-saturday{
+    background: #02a4d3;
+    padding: 5px;
+}
+
+/* Sunday -> Orange */
+.week-light-sunday{
+    background: #FF5733;
+    padding: 5px;
+} 
+.week-dark-medium-sunday{
+    background: #FF8C00;
+    padding: 5px;
+    transition: 2s; /* Class transition */
+  -moz-transition: 2s; /* Firefox 4 */
+  -webkit-transition: 2s; /* Safari and Chrome */
+  -o-transition: 2s; /* Opera */
+} 
+.week-dark-sunday{
+    background: #FFA500	;
+    padding: 5px;
+}
