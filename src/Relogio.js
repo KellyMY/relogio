@@ -98,7 +98,7 @@ export default class Relogio extends Component{
 
         }
 
-        var style_week = classNameType;
+        var style_week = classNameWeek;
         var atual_week = this.state.classNameWeek;
         
         if(atual_week != ''){
